@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Villains</title>
+</head>
+<body>
+    <div class="heading">Villains</div>
+    <div class="game_board">
+        <canvas id="ctx" width="300" height="200" style="border: 1px solid black"></canvas>
+    </div>
+    <div id="messages" class="chat">
+        <div>Welcome to chat</div>
+    </div>
+
+    <input id="input" type="text" class="chat-input" accesskey="t" placeholder="press ctrl-c to chat" onkeydown="window.game.chat.send(event)">
+</body>
+</html>
